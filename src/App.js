@@ -1,23 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import KeyboardOverlayActiveContext from "./KeyboardOverlayActiveContext";
 
 function App() {
+  const [isInputFocused, setIsInputFocused] = React.useState(false);
+  const isOverlayKeyboardActive = React.useContext(
+    KeyboardOverlayActiveContext
+  );
+
+  function handleBlur() {
+    setIsInputFocused(false);
+  }
+
+  function handleFocus() {
+    setIsInputFocused(true);
+  }
+
+  const isNavigatorMobile = /Mobi/.test(navigator.userAgent);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          Is overlay keyboard active? {isOverlayKeyboardActive.toString()}
+        </div>
+        <div>Is input focused? {isInputFocused.toString()}</div>
+        <div>Navigator looks mobile? {isNavigatorMobile.toString()}</div>
+        <input type="text" onBlur={handleBlur} onFocus={handleFocus} />
       </header>
     </div>
   );
