@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/onscreen-keyboard-detector/static/css/main.97536066.chunk.css",
-    "main.js": "/onscreen-keyboard-detector/static/js/main.1df31b9e.chunk.js",
-    "main.js.map": "/onscreen-keyboard-detector/static/js/main.1df31b9e.chunk.js.map",
+    "main.js": "/onscreen-keyboard-detector/static/js/main.3239a19b.chunk.js",
+    "main.js.map": "/onscreen-keyboard-detector/static/js/main.3239a19b.chunk.js.map",
     "runtime~main.js": "/onscreen-keyboard-detector/static/js/runtime~main.a2caae1e.js",
     "runtime~main.js.map": "/onscreen-keyboard-detector/static/js/runtime~main.a2caae1e.js.map",
     "static/js/2.8247a78d.chunk.js": "/onscreen-keyboard-detector/static/js/2.8247a78d.chunk.js",
     "static/js/2.8247a78d.chunk.js.map": "/onscreen-keyboard-detector/static/js/2.8247a78d.chunk.js.map",
     "index.html": "/onscreen-keyboard-detector/index.html",
-    "precache-manifest.fe60b3d74be06dc34c1453ee6f9c9d90.js": "/onscreen-keyboard-detector/precache-manifest.fe60b3d74be06dc34c1453ee6f9c9d90.js",
+    "precache-manifest.b785e9fb1a63e19b19b8d9cb7cdd8e5a.js": "/onscreen-keyboard-detector/precache-manifest.b785e9fb1a63e19b19b8d9cb7cdd8e5a.js",
     "service-worker.js": "/onscreen-keyboard-detector/service-worker.js",
     "static/css/main.97536066.chunk.css.map": "/onscreen-keyboard-detector/static/css/main.97536066.chunk.css.map"
   }
