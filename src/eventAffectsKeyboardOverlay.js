@@ -22,7 +22,7 @@ export default function eventAffectsKeyboardOverlay(event) {
       return true;
     }
     default: {
-      return false;
+      return target.isContentEditable;
     }
   }
 }
