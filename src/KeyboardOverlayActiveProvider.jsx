@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import KeyboardOverlayActiveContext from "./KeyboardOverlayActiveContext";
-import shouldBeMobile from "./shouldBeMobile";
+import onMobileBrowser from "./onMobileBrowser";
 import eventAffectsKeyboardOverlay from "./eventAffectsKeyboardOverlay";
 
 const propTypes = {
@@ -14,7 +14,7 @@ function KeyboardOverlayActiveProvider({ children }) {
     setIsOnscreenKeyboardVisible
   ] = React.useState(false);
 
-  const { current: looksLikeMobile } = React.useRef(shouldBeMobile());
+  const isOnMobileBrowser = onMobileBrowser();
 
   const handleFocus = React.useCallback(event => {
     if (eventAffectsKeyboardOverlay(event)) {
@@ -31,8 +31,8 @@ function KeyboardOverlayActiveProvider({ children }) {
   return (
     <KeyboardOverlayActiveContext.Provider value={isOnscreenKeyboardVisible}>
       <div
-        onFocusCapture={looksLikeMobile ? handleFocus : undefined}
-        onBlurCapture={looksLikeMobile ? handleBlur : undefined}
+        onFocusCapture={isOnMobileBrowser ? handleFocus : undefined}
+        onBlurCapture={isOnMobileBrowser ? handleBlur : undefined}
       >
         {children}
       </div>
