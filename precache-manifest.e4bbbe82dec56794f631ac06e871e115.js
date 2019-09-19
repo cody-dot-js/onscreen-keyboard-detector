@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "361e215ee83075b2ebb5c9f833dd1042",
+    "revision": "8ba21f15ce9cb490feb8f6ac343fb1c6",
     "url": "/onscreen-keyboard-detector/index.html"
   },
   {
-    "revision": "80640c396168311c88be",
+    "revision": "db4e8fcd381e39622e81",
     "url": "/onscreen-keyboard-detector/static/css/main.97536066.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/onscreen-keyboard-detector/static/js/2.8247a78d.chunk.js"
   },
   {
-    "revision": "80640c396168311c88be",
-    "url": "/onscreen-keyboard-detector/static/js/main.3239a19b.chunk.js"
+    "revision": "db4e8fcd381e39622e81",
+    "url": "/onscreen-keyboard-detector/static/js/main.52e4bb39.chunk.js"
   },
   {
     "revision": "f38a66c1be1ab7f636b2",

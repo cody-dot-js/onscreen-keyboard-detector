@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/onscreen-keyboard-detector/precache-manifest.b785e9fb1a63e19b19b8d9cb7cdd8e5a.js"
+  "/onscreen-keyboard-detector/precache-manifest.e4bbbe82dec56794f631ac06e871e115.js"
 );
 
 self.addEventListener('message', (event) => {
